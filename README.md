@@ -67,22 +67,4 @@ Response:
 "token": "jwt_token_here"
 }
 
-Category Routes
-All category routes require a Bearer token in headers.
-
-POST /api/categories
-Request:
-{
-"name": "Electronics",
-"status": "active",
-"parentId": null
-}
-Response:
-{
-"category": {
-"\_id": "id",
-"name": "Electronics",
-"status": "active",
-"parentId": null
-}
-}
+Categories routes can be found in shared collection file of Postman.
